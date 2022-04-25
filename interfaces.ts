@@ -38,19 +38,6 @@ export interface tvl{
         seniorExitedTVL: number
                 
 }
-export interface barnBridgeDataWithID{ 
-        chainID: number,
-        poolName: string,
-        poolAddress: string,
-        poolToken : poolToken,
-        juniorTokenAddress: string,
-        seniorTokenAddress: string,
-        oracleAddress: string,
-        oracleAssetSymbol: string,
-        seniorRateModelAddress: string,
-        accountingModelAddress: string,
-        epoch1Start: number,
-        epochDuration: number,
-        state: state,
-        tvl: tvl
+export interface barnBridgeDataWithID extends barnBridgeData{ 
+        chainID: number
         }
