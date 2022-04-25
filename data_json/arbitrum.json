@@ -1,0 +1,141 @@
+{
+    "data": [
+    {
+    "poolName": "WETH-USD-1w",
+    "poolAddress": "0x1bb4f073e5396a1e6b4f0db461baa025a4bf9545",
+    "poolToken": {
+    "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+    "symbol": "WETH",
+    "decimals": 18
+    },
+    "juniorTokenAddress": "0x9b1d01933f34529edcb8229e96d326786200e5c2",
+    "seniorTokenAddress": "0x9b45bb92ff4e0db3bbc9fdc593029ea3477dc968",
+    "oracleAddress": "0x51ca89b391f3464e5ca9b7a56a8ff369db06abe6",
+    "oracleAssetSymbol": "USD",
+    "seniorRateModelAddress": "0x54457b07907df0c0debbb858a1fb34b3834fbabc",
+    "accountingModelAddress": "0x264ab91aaf5110f737972b91352ff28bf9456f1b",
+    "epoch1Start": 1634565600,
+    "epochDuration": 604800,
+    "state": {
+    "epoch": 28,
+    "seniorLiquidity": "1.537646509757609307",
+    "juniorLiquidity": "1.480472387259216578",
+    "upsideExposureRate": "0.16734249186604028",
+    "downsideProtectionRate": "0.35"
+    },
+    "tvl": {
+    "epochJuniorTVL": 4252.967831603424,
+    "epochSeniorTVL": 4417.212505045782,
+    "juniorEntryQueueTVL": 0,
+    "seniorEntryQueueTVL": 0,
+    "juniorExitQueueTVL": 0,
+    "seniorExitQueueTVL": 0,
+    "juniorExitedTVL": 300.0293084556929,
+    "seniorExitedTVL": 9260.988109659153
+    }
+    },
+    {
+    "poolName": "WBTC-USD-1w",
+    "poolAddress": "0xb3a0c4cb75574fe38dda8fc29cd859ba59ace528",
+    "poolToken": {
+    "address": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+    "symbol": "WBTC",
+    "decimals": 8
+    },
+    "juniorTokenAddress": "0x9ea735f902ba97c17a311bb9065bc8796d750aa9",
+    "seniorTokenAddress": "0x4f3515a853cc7878a81fc2e451cda32356f270a7",
+    "oracleAddress": "0x8f7e53dbb18c7c4444dcd771b8c8fad1d0538993",
+    "oracleAssetSymbol": "USD",
+    "seniorRateModelAddress": "0x7cbb528c4289a21a73e01e76bd97a37f659d42a6",
+    "accountingModelAddress": "0x7cffe002d0cc78e4e62ef09eb78dee7cf5a1250f",
+    "epoch1Start": 1634565600,
+    "epochDuration": 604800,
+    "state": {
+    "epoch": 28,
+    "seniorLiquidity": "0.00013675",
+    "juniorLiquidity": "0.00059437",
+    "upsideExposureRate" : "0.47280250632051185",
+    "downsideProtectionRate": "0.35"
+    },
+    "tvl": {
+    "epochJuniorTVL": 23.1754313483,
+    "epochSeniorTVL": 5.332099932499999,
+    "juniorEntryQueueTVL": 0,
+    "seniorEntryQueueTVL": 0,
+    "juniorExitQueueTVL": 0,
+    "seniorExitQueueTVL": 0,
+    "juniorExitedTVL": 0,
+    "seniorExitedTVL": 0
+    }
+    },
+    {
+    "poolName" : "UNI-USD-1w",
+    "poolAddress ": "0x4a67e15a16f3e1eee73e237cd201d9c8449088f0",
+    "poolToken": {
+    "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+    "symbol": "UNI",
+    "decimals": 18
+    },
+    "juniorTokenAddress": "0x6ee0efb7c7bf4bc6b76abd6d2b4f16f48c3f7ddb",
+    "seniorTokenAddress": "0x4bcf20308e4dcf8310716ab3806539c89693b1d7",
+    "oracleAddress": "0x92fee014a97590ae4bfdbe132555ddd89318980b",
+    "oracleAssetSymbol": "USD",
+    "seniorRateModelAddress": "0x64da10efbad2fc4c8c8d1723ea23006ec90036fc",
+    "accountingModelAddress": "0x34a12cdb1ba8ee65a1bd918c3e21349467d94fe0",
+    "epoch1Start": 1634565600,
+    "epochDuration": 604800,
+    "state": {
+    "epoch": 28,
+    "seniorLiquidity": "28.172237727292688241",
+    "juniorLiquidity": "0.01407313803530568",
+    "upsideExposureRate": "0.9906133514127526",
+    "downsideProtectionRate": "0.000399431854776484"
+    },
+    "tvl": {
+    "epochJuniorTVL": 0.12011649327730244,
+    "epochSeniorTVL": 240.45457346382204,
+    "juniorEntryQueueTVL": 0,
+    "seniorEntryQueueTVL": 0,
+    "juniorExitQueueTVL": 0,
+    "seniorExitQueueTVL": 0,
+    "juniorExitedTVL": 510.70630222912996,
+    "seniorExitedTVL": 99.96299224006695
+    }
+    },
+    {
+    "poolName": "LINK-USD-1w",
+    "poolAddress": "0x458c23692a4944d0ad5f91f640e5fcc47caacecf",
+    "poolToken" : {
+    "address": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+    "symbol": "LINK",
+    "decimals": 18
+    },
+    "juniorTokenAddress": "0x7deb14b6a25a7f9457ec5332a56c61d9efd7227d",
+    "seniorTokenAddress": "0x369184e6f8b6d600e48916ec322963c13f36f1b8",
+    "oracleAddress": "0x1ef3d541831360700da683448aa4c99b61759e59",
+    "oracleAssetSymbol": "USD",
+    "seniorRateModelAddress": "0x085c787e3ce69774ecab2aea090c35bf89b59223",
+    "accountingModelAddress": "0xef92c8ad39775e2497cb4d8abf548af62de8e2e1",
+    "epoch1Start": 1634565600,
+    "epochDuration": 604800,
+    "state": {
+    "epoch": 28,
+    "seniorLiquidity": "1.000000000000000085",
+    "juniorLiquidity": "33.908916682515698886",
+    "upsideExposureRate": "0.6228617066616929",
+    "downsideProtectionRate": "0.35"
+    },
+    "tvl": {
+    "epochJuniorTVL": 441.10560108701196,
+    "epochSeniorTVL": 13.008543010000004,
+    "juniorEntryQueueTVL": 0,
+    "seniorEntryQueueTVL": 0,
+    "juniorExitQueueTVL": 0,
+    "seniorExitQueueTVL": 0,
+    "juniorExitedTVL": 0,
+    "seniorExitedTVL": 2258.417141866448
+    }
+    }
+    ],
+    "status": 200
+    }
